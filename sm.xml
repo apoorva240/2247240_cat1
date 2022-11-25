@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sm.xsl"?>
+<College xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="smm.xsd">
+    <Student>
+        <Stu-id>1001</Stu-id>
+        <Stu-name>Apoorva Vasishtha</Stu-name>
+        <Stu-course>MCA</Stu-course>
+        <Stu-sem>1</Stu-sem>
+        <Stu-sub1> Computer network</Stu-sub1>
+        <Stu-sub2>Research</Stu-sub2>
+        <Stu-sub3> Java</Stu-sub3>
+        <Stu-total>100</Stu-total>
+        <Stu-avg>80</Stu-avg>
+
+
+    </Student>
+    <Student>
+    <Stu-id>1002</Stu-id>
+    <Stu-name> Rishika Gupta</Stu-name>
+    <Stu-course>MTECH</Stu-course>
+    <Stu-sem>1</Stu-sem>
+    <Stu-sub1>C++</Stu-sub1>
+    <Stu-sub2>Python</Stu-sub2>
+    <Stu-sub3> DBMS</Stu-sub3>
+    <Stu-total>100</Stu-total>
+    <Stu-avg>70</Stu-avg>
+</Student>
+
+</College>

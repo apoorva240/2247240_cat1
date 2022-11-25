@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="College">
+    <xs:complexType>
+      <xs:sequence>
+        
+              <xs:element name="Student" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name ="Stu-id" type="xs:int"></xs:element>
+                    <xs:element name="Stu-name" type="xs:string" />
+                    <xs:element name="Stu-course" type="xs:string" />
+                    <xs:element name="Stu-sem" type="xs:string" />
+                    <xs:element name="Stu-sub1" type="xs:string" />
+                    <xs:element name="Stu-sub2" type="xs:string" />
+                    <xs:element name="Stu-sub3" type="xs:string" />
+                    <xs:element name="Stu-total" type="xs:int" />
+                    <xs:element name="Stu-avg" type="xs:int" />
+                    
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
